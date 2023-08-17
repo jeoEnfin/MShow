@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo {
+    position: fixed;
+    left: 20px;
+    width: 100px;
+}
+
+.avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 1rem;
+    margin-left: 10px;
+    padding-top: 0.5rem;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: rgb(89, 147, 235);
+    font-weight: 600;
+  }
+  
+  .list a:hover { color: rgb(0, 60, 255)}
+  .list a.active {
+    color: rgb(255, 8, 8);
+  }
+  
+

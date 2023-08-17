@@ -1,0 +1,6 @@
+.card {
+    background-image: url('https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.svg');
+    background-size: cover;
+    height: 448px;
+    color: white;
+}
